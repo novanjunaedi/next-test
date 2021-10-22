@@ -1,0 +1,116 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+[id] {
+  scroll-margin-top: 100px;
+}
+
+#Navbar,
+#Main,
+#Footer {
+  .section {
+    .section-title {
+      font-weight: bold;
+      color: #494949;
+    }
+  }
+  .btn-primary {
+    background-color: #14a7a0;
+    border: none;
+    color: white;
+  }
+  .btn-primary:hover {
+    background-color: #118a84;
+    color: white;
+  }
+  .btn-outline-primary {
+    background-color: none;
+    border: 1.5px solid #118a84;
+    color: #118a84;
+  }
+  .btn-outline-primary:hover {
+    background-color: #118a84;
+    color: white;
+  }
+  .link {
+    text-decoration: none;
+    color: gray;
+    margin-bottom: 3px;
+  }
+  .link:hover {
+    color: black;
+  }
+  .footer-socmed-link {
+    font-size: 30px;
+    color: rgb(80, 80, 80);
+    margin-inline-start: 10px;
+  }
+  .bg-codepolitan {
+    background-color: #14a7a0;
+  }
+
+  #CampaignCourseList {
+    .nav-pills .nav-link {
+      color: rgb(29, 29, 29);
+    }
+    .nav-pills .nav-link.active,
+    .nav-pills .show > .nav-link {
+      color: white;
+      background-color: #14a7a0;
+    }
+  }
+
+  #CampaignTestimony {
+    .carousel-indicators {
+      margin-bottom: -10px;
+    }
+    .carousel-indicators [data-bs-target] {
+      background-color: #14a7a0;
+      height: 5px;
+    }
+    .carousel-control-next {
+      right: -80px;
+    }
+    .carousel-control-prev {
+      left: -80px;
+    }
+    .carousel .carousel-control-prev-icon {
+      /* change fill="currentColor" to %23fff to make it white  */
+      // background-image: url("../assets/img/prev.png");
+    }
+
+    .carousel .carousel-control-next-icon {
+      /* change fill="currentColor" to %23fff to make it white  */
+      // background-image: url("../assets/img/next.png");
+    }
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+      /* Use to adjust size of icons */
+      width: 3rem;
+      height: 3rem;
+    }
+    .testimony-thumbnail {
+      position: absolute;
+      z-index: 1;
+      top: -20%;
+      left: 38%;
+      height: 80px;
+      width: 80px;
+      object-fit: cover;
+    }
+  }
+}

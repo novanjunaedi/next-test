@@ -1,0 +1,18 @@
+.section {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 650px;
+  padding-top: 160px;
+  position: relative;
+  .title {
+    font-weight: bold;
+    color: #14a7a0;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .section {
+    background-image: none !important;
+  }
+}

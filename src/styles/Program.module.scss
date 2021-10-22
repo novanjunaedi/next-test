@@ -1,0 +1,24 @@
+ul.discord_icon {
+  list-style-image: url("/assets/img/program/icon-check.png");
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 30px;
+}
+
+ul.discord_icon > li {
+  margin: 10px 0 10px 0px;
+  padding-left: 10px;
+}
+
+.headline {
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 700px) {
+  .headline {
+    font-size: 2rem;
+  }
+}

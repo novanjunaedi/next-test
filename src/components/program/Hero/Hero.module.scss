@@ -1,0 +1,17 @@
+.hero {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 650px;
+  padding-top: 160px;
+  position: relative;
+  .hero_title {
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .hero {
+    background-image: none !important;
+  }
+}
